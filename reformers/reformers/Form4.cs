@@ -34,8 +34,11 @@ namespace reformers
 
         }
 
+        
+
         private void button1_Click(object sender, EventArgs e)
         {
+            
             Donor d = new Donor();
             d.Name = textBox1.Text;
             d.Contact = textBox2.Text;
@@ -61,6 +64,12 @@ namespace reformers
             {
                 d.Donate = "Courier goods";
             }
+
+            Random random = new Random();
+            int a = random.Next(100, 1000000);
+            d.Id1 = a;
+            
+                
            
 
             Dataclass.ADDdonor(d);

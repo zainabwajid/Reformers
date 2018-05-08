@@ -40,3 +40,21 @@ C:\Users\Dell\Desktop\New folder\Reformers\reformers\reformers\obj\Debug\reforme
 C:\Users\Dell\Desktop\New folder\Reformers\reformers\reformers\obj\Debug\reformers.frmViewDonor.resources
 C:\Users\Dell\Desktop\New folder\Reformers\reformers\reformers\obj\Debug\reformers.frmData.resources
 C:\Users\Dell\Desktop\New folder\Reformers\reformers\reformers\obj\Debug\reformers.frmViewVolunteer.resources
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\bin\Debug\reformers.exe.config
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.exe
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.pdb
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\bin\Debug\reformers.exe
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\bin\Debug\reformers.pdb
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.csprojResolveAssemblyReference.cache
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.frmReformers.resources
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.frmViewDonor.resources
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.frmProjects.resources
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.frmRegister.resources
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.frmDonor.resources
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.frmWorker.resources
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.frmVolunteer.resources
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.frmadmin.resources
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.frmData.resources
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.frmViewVolunteer.resources
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.Properties.Resources.resources
+C:\Users\Bushra\Desktop\Reformers\reformers\reformers\obj\Debug\reformers.csproj.GenerateResource.Cache

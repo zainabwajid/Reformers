@@ -32,5 +32,12 @@ namespace reformers
             don.Show();
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmReformers refo = new frmReformers();
+            this.Hide();
+            refo.Show();
+        }
     }
 }

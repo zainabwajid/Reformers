@@ -17,6 +17,7 @@ namespace reformers
         private string profession1;
         private string address1;
         private string donate;
+        private int id1;
 
         public string Name
         {
@@ -125,6 +126,18 @@ namespace reformers
             set
             {
                 donate = value;
+            }
+        }
+        public int Id1
+        {
+            get
+            {
+                return id1;
+            }
+
+            set
+            {
+                id1 = value;
             }
         }
        

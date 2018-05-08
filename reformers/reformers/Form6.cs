@@ -42,7 +42,12 @@ namespace reformers
             v.Address = textBox8.Text;
             v.Skill = textBox9.Text;
             v.Join = textBox10.Text;
+
+            Random random = new Random();
+            int a = random.Next(100, 1000000);
+            v.Id = a;
             Dataclass.ADDvolunteer(v);
+            
 
             MessageBox.Show("Thankyou for registration!");
 

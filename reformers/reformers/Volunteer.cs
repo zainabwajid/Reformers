@@ -18,6 +18,7 @@ namespace reformers
         private string address;
         private string skill;
         private string join;
+        private int id;
         
 
         public string Username
@@ -139,6 +140,18 @@ namespace reformers
             set
             {
                 join = value;
+            }
+        }
+        public int Id
+        {
+            get
+            {
+                return id;
+            }
+
+            set
+            {
+                id = value;
             }
         }
     }

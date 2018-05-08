@@ -20,6 +20,16 @@ namespace reformers
         public static ArrayList skill = new ArrayList();
         public static ArrayList join = new ArrayList();
         public static ArrayList donate = new ArrayList();
+        public static ArrayList id = new ArrayList();
+        public static ArrayList id1 = new ArrayList();
+        public static ArrayList name = new ArrayList();
+        public static ArrayList contact = new ArrayList();
+        public static ArrayList email1 = new ArrayList();
+        public static ArrayList cnic1 = new ArrayList();
+        public static ArrayList age1 = new ArrayList();
+        public static ArrayList gender1 = new ArrayList();
+        public static ArrayList profession1 = new ArrayList();
+        public static ArrayList address1 = new ArrayList();
 
         private static List<Volunteer> vol = new List<Volunteer>();
 
