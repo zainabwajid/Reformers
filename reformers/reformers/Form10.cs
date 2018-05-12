@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Collections;
 
 namespace reformers
 {
@@ -30,6 +31,32 @@ namespace reformers
             source.DataSource = Dataclass.Don;
             dataGridView1.DataSource = source;
             Dataclass.SHOW();
+            //dataGridView1.ReadOnly = false;
+            //dataGridView1.Columns[0].Visible = false;
+            
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void deleteRowToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (this.dataGridView1.SelectedRows.Count > 0)
+            {
+                dataGridView1.Rows.RemoveAt(this.dataGridView1.SelectedRows[0].Index);
+            }  
         }
     }
 }

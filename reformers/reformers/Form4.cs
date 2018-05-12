@@ -64,6 +64,19 @@ namespace reformers
             {
                 d.Donate = "Courier goods";
             }
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox5.Text = "";
+            textBox6.Text = "";
+            textBox7.Text = "";
+            textBox8.Text = "";
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
+            checkBox4.Checked = false;
+
 
             Random random = new Random();
             int a = random.Next(100, 1000000);

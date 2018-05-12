@@ -41,7 +41,18 @@ namespace reformers
             v.Profession = textBox7.Text;
             v.Address = textBox8.Text;
             v.Skill = textBox9.Text;
-            v.Join = textBox10.Text;
+            v.Join = richTextBox1.Text;
+
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox5.Text = "";
+            textBox6.Text = "";
+            textBox7.Text = "";
+            textBox8.Text = "";
+            textBox9.Text = "";
+            richTextBox1.Text = "";
 
             Random random = new Random();
             int a = random.Next(100, 1000000);

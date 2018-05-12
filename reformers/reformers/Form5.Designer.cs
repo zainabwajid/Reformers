@@ -1,6 +1,6 @@
 ﻿namespace reformers
 {
-    partial class frmWorker
+    partial class frmViewWorker
     {
         /// <summary>
         /// Required designer variable.
@@ -62,7 +62,7 @@
             this.label1.TabIndex = 35;
             this.label1.Text = "Send your CV/Resume at:";
             // 
-            // frmWorker
+            // frmViewWorker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -70,7 +70,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label1);
-            this.Name = "frmWorker";
+            this.Name = "frmViewWorker";
             this.Text = "Worker";
             this.ResumeLayout(false);
             this.PerformLayout();

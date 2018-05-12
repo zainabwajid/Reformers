@@ -21,7 +21,7 @@ namespace reformers
         {
             if (checkBox1.Checked == true && checkBox2.Checked == false && checkBox3.Checked == false)
             {
-                frmWorker w = new frmWorker();
+                frmViewWorker w = new frmViewWorker();
                 w.Show();
                 this.Hide();
             }

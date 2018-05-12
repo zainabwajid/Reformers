@@ -30,6 +30,29 @@ namespace reformers
         public static ArrayList gender1 = new ArrayList();
         public static ArrayList profession1 = new ArrayList();
         public static ArrayList address1 = new ArrayList();
+        public static ArrayList suggestion = new ArrayList();
+        public static ArrayList yourname = new ArrayList();
+        public static ArrayList email2 = new ArrayList();
+
+        private static List<Suggestions> sug = new List<Suggestions>();
+
+        internal static List<Suggestions> Sug
+        {
+            get { return Dataclass.sug; }
+            set { Dataclass.sug = value; }
+        }
+
+        public static void ADDsuggestion(Suggestions s)
+        {
+
+            Dataclass.Sug.Add(s);
+
+        }
+        public static List<Suggestions> SHOWall()
+        {
+            return Sug;
+        }
+
 
         private static List<Volunteer> vol = new List<Volunteer>();
 

@@ -30,9 +30,6 @@
         {
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -52,6 +49,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // button2
@@ -73,27 +71,6 @@
             this.button1.Text = "Register";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(181, 292);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(549, 20);
-            this.textBox12.TabIndex = 56;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(181, 266);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(549, 20);
-            this.textBox11.TabIndex = 55;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(181, 240);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(549, 20);
-            this.textBox10.TabIndex = 54;
             // 
             // label10
             // 
@@ -249,16 +226,22 @@
             this.label1.TabIndex = 35;
             this.label1.Text = "Name";
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(188, 240);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(542, 96);
+            this.richTextBox1.TabIndex = 59;
+            this.richTextBox1.Text = "";
+            // 
             // frmVolunteer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(935, 411);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.label9);
@@ -290,9 +273,6 @@
 
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Label label9;
@@ -312,5 +292,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
