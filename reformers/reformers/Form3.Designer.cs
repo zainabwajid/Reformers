@@ -39,6 +39,7 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
+            this.checkBox3.ForeColor = System.Drawing.Color.LimeGreen;
             this.checkBox3.Location = new System.Drawing.Point(54, 134);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(55, 17);
@@ -49,16 +50,19 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
+            this.checkBox2.ForeColor = System.Drawing.Color.LimeGreen;
             this.checkBox2.Location = new System.Drawing.Point(54, 98);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(71, 17);
             this.checkBox2.TabIndex = 32;
             this.checkBox2.Text = "Volunteer";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.ForeColor = System.Drawing.Color.LimeGreen;
             this.checkBox1.Location = new System.Drawing.Point(54, 65);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(61, 17);
@@ -68,31 +72,37 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.LightYellow;
+            this.button1.ForeColor = System.Drawing.Color.LimeGreen;
             this.button1.Location = new System.Drawing.Point(252, 196);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 30;
             this.button1.Text = "Next";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.Color.LimeGreen;
             this.label11.Location = new System.Drawing.Point(51, 30);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(63, 13);
             this.label11.TabIndex = 29;
             this.label11.Text = "Register as:";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.LightYellow;
+            this.button2.ForeColor = System.Drawing.Color.LimeGreen;
             this.button2.Location = new System.Drawing.Point(40, 199);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(68, 28);
             this.button2.TabIndex = 34;
             this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmRegister
@@ -108,6 +118,7 @@
             this.Controls.Add(this.label11);
             this.Name = "frmRegister";
             this.Text = "Register";
+            this.Load += new System.EventHandler(this.frmRegister_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

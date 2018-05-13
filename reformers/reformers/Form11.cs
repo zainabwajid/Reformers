@@ -67,5 +67,10 @@ namespace reformers
         {
 
         }
+
+        private void frmQueries_Load(object sender, EventArgs e)
+        {
+            this.BackgroundImage = Properties.Resources.NGO;
+        }
     }
 }

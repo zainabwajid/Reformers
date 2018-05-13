@@ -19,7 +19,7 @@ namespace reformers
 
         private void frmadmin_Load(object sender, EventArgs e)
         {
-           
+            this.BackgroundImage = Properties.Resources.NGO;
         }
 
         private void button1_Click(object sender, EventArgs e)

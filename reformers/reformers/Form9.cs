@@ -45,5 +45,10 @@ namespace reformers
                 dataGridView1.Rows.RemoveAt(this.dataGridView1.SelectedRows[0].Index);
             }  
         }
+
+        private void frmViewVolunteer_Load(object sender, EventArgs e)
+        {
+            this.BackgroundImage = Properties.Resources.NGO;
+        }
     }
 }

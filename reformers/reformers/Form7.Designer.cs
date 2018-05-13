@@ -38,13 +38,15 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.LightYellow;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.LimeGreen;
             this.button1.Location = new System.Drawing.Point(45, 189);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(86, 47);
             this.button1.TabIndex = 0;
             this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
@@ -60,6 +62,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.LightYellow;
             this.textBox1.Location = new System.Drawing.Point(210, 51);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
@@ -78,6 +81,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.LightYellow;
             this.textBox2.Location = new System.Drawing.Point(210, 104);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
@@ -85,13 +89,15 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.LightYellow;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.LimeGreen;
             this.button2.Location = new System.Drawing.Point(484, 189);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(85, 47);
             this.button2.TabIndex = 5;
             this.button2.Text = "Login";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmadmin

@@ -35,12 +35,14 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.LightYellow;
+            this.button2.ForeColor = System.Drawing.Color.LimeGreen;
             this.button2.Location = new System.Drawing.Point(30, 199);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 43);
             this.button2.TabIndex = 37;
             this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // linkLabel1
@@ -72,6 +74,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmViewWorker";
             this.Text = "Worker";
+            this.Load += new System.EventHandler(this.frmViewWorker_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -55,12 +55,14 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.LightYellow;
+            this.button2.ForeColor = System.Drawing.Color.LimeGreen;
             this.button2.Location = new System.Drawing.Point(45, 354);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 43);
             this.button2.TabIndex = 56;
             this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // checkBox4
@@ -106,12 +108,14 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.LightYellow;
+            this.button1.ForeColor = System.Drawing.Color.LimeGreen;
             this.button1.Location = new System.Drawing.Point(538, 354);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(103, 43);
             this.button1.TabIndex = 51;
             this.button1.Text = "Register";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label9
@@ -170,6 +174,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 44;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // textBox5
             // 
@@ -283,6 +288,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmDonor";
             this.Text = "Donor";
+            this.Load += new System.EventHandler(this.frmDonor_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

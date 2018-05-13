@@ -54,22 +54,26 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.LightYellow;
+            this.button2.ForeColor = System.Drawing.Color.LimeGreen;
             this.button2.Location = new System.Drawing.Point(44, 356);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 43);
             this.button2.TabIndex = 58;
             this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.LightYellow;
+            this.button1.ForeColor = System.Drawing.Color.LimeGreen;
             this.button1.Location = new System.Drawing.Point(684, 356);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(103, 43);
             this.button1.TabIndex = 57;
             this.button1.Text = "Register";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label10
@@ -83,6 +87,7 @@
             // 
             // textBox9
             // 
+            this.textBox9.BackColor = System.Drawing.Color.LightYellow;
             this.textBox9.Location = new System.Drawing.Point(111, 206);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(619, 20);
@@ -99,6 +104,7 @@
             // 
             // textBox8
             // 
+            this.textBox8.BackColor = System.Drawing.Color.LightYellow;
             this.textBox8.Location = new System.Drawing.Point(111, 180);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(619, 20);
@@ -115,6 +121,7 @@
             // 
             // textBox7
             // 
+            this.textBox7.BackColor = System.Drawing.Color.LightYellow;
             this.textBox7.Location = new System.Drawing.Point(111, 157);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
@@ -131,6 +138,7 @@
             // 
             // textBox6
             // 
+            this.textBox6.BackColor = System.Drawing.Color.LightYellow;
             this.textBox6.Location = new System.Drawing.Point(293, 125);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
@@ -147,6 +155,7 @@
             // 
             // textBox5
             // 
+            this.textBox5.BackColor = System.Drawing.Color.LightYellow;
             this.textBox5.Location = new System.Drawing.Point(111, 125);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
@@ -163,6 +172,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.Color.LightYellow;
             this.textBox4.Location = new System.Drawing.Point(111, 91);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(282, 20);
@@ -179,6 +189,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.Color.LightYellow;
             this.textBox3.Location = new System.Drawing.Point(111, 59);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(282, 20);
@@ -195,6 +206,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.LightYellow;
             this.textBox2.Location = new System.Drawing.Point(111, 35);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(282, 20);
@@ -211,6 +223,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.LightYellow;
             this.textBox1.Location = new System.Drawing.Point(111, 6);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(282, 20);
@@ -228,6 +241,7 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.BackColor = System.Drawing.Color.LightYellow;
             this.richTextBox1.Location = new System.Drawing.Point(188, 240);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(542, 96);

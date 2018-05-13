@@ -30,5 +30,10 @@ namespace reformers
             frmQueries q = new frmQueries();
             q.Show();
         }
+
+        private void frmProjects_Load(object sender, EventArgs e)
+        {
+            this.BackgroundImage = Properties.Resources.NGO;
+        }
     }
 }

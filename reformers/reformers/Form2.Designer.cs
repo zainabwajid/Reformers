@@ -42,6 +42,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.LimeGreen;
             this.label1.Location = new System.Drawing.Point(32, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 18);
@@ -52,6 +53,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.LimeGreen;
             this.label2.Location = new System.Drawing.Point(32, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 18);
@@ -62,6 +64,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.LimeGreen;
             this.label3.Location = new System.Drawing.Point(32, 83);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(125, 18);
@@ -72,6 +75,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.LimeGreen;
             this.label4.Location = new System.Drawing.Point(32, 113);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(159, 18);
@@ -82,6 +86,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.LimeGreen;
             this.label5.Location = new System.Drawing.Point(32, 146);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(296, 18);
@@ -92,6 +97,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.LimeGreen;
             this.label6.Location = new System.Drawing.Point(32, 180);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(276, 18);
@@ -100,22 +106,26 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.LightYellow;
+            this.button1.ForeColor = System.Drawing.Color.LimeGreen;
             this.button1.Location = new System.Drawing.Point(35, 239);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(106, 36);
             this.button1.TabIndex = 6;
             this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.LightYellow;
+            this.button2.ForeColor = System.Drawing.Color.LimeGreen;
             this.button2.Location = new System.Drawing.Point(583, 239);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(157, 36);
             this.button2.TabIndex = 7;
             this.button2.Text = "Queries/Suggestions";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmProjects
@@ -134,6 +144,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmProjects";
             this.Text = "Projects";
+            this.Load += new System.EventHandler(this.frmProjects_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

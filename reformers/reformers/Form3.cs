@@ -45,5 +45,20 @@ namespace reformers
             r.Show();
             this.Hide();
         }
+
+        private void frmRegister_Load(object sender, EventArgs e)
+        {
+            this.BackgroundImage = Properties.Resources.NGO;
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

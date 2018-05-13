@@ -51,5 +51,10 @@ namespace reformers
             s.Show();
             this.Hide();
         }
+
+        private void frmData_Load(object sender, EventArgs e)
+        {
+            this.BackgroundImage = Properties.Resources.NGO;
+        }
     }
 }

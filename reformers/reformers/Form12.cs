@@ -40,7 +40,7 @@ namespace reformers
 
         private void Form12_Load(object sender, EventArgs e)
         {
-
+            this.BackgroundImage = Properties.Resources.NGO;
         }
 
         private void dataGridView1_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)

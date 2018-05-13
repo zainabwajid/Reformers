@@ -66,6 +66,11 @@ namespace reformers
         {
 
         }
+
+        private void frmViewWorker_Load(object sender, EventArgs e)
+        {
+            this.BackgroundImage = Properties.Resources.NGO;
+        }
        
     }
 }

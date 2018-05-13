@@ -29,6 +29,8 @@ namespace reformers
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.BackgroundImage = Properties.Resources.NGO;
+            
 
         }
 
